@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content Type; content="text/html; charset=utf-8">  
+      <title>Reviews</title>
+</head>
+
+ <body bgcolor="goldenrod">
+    <h1>Book Reviews</h1>
+    <form action="processcoment.php"; method=POST>
+          User name: <input type="text" name="username" style="background-color: wheat;">
+   <br>
+<p>Rate the Page</p>
+   <input type="radio"; name="rating"; value=1>1 
+   <input type="radio"; name="rating"; value="2">2
+   <input type="radio"; name="rating"; value="3">3
+   <input type="radio"; name="rating"; value="4">4
+   <input type="radio"; name="rating"; value="5">5
+   <br><br>
+Comment:<br>
+<textarea style="background-color: wheat;" cols="40"; rows="25"; name="comment"></textarea>
+<br>
+<a href="index.html"><input type="button" value="Submit"></a>
+<button type="reset"; value="reset">Reset</button>
+</form>
+<br>
+   <!--<form action="index.html" method="get">
+<input type="submit" value="Home" name="Home" id="Home"/>
+  </form>-->
+</body>
+</html>
